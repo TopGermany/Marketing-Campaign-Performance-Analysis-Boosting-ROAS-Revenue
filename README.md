@@ -73,22 +73,6 @@ FROM Marketing
 GROUP BY Channel
 ORDER BY Budget DESC;
 ```
-<img width="960" height="117" alt="image" src="https://github.com/user-attachments/assets/39d1a45b-4fee-46b3-8d68-a68da8b42040" />
-```sql
--- Những kênh có nhiều chiến dịch lỗ nhất
-SELECT Channel,AVG(Budget) AS AVG_Budget,COUNT(Campaign_ID) AS Total_Campaign,AVG(ROAS) AS AVG_Roas FROM Marketing
-WHERE ROAS < 1
-GROUP BY Channel
-ORDER BY COUNT(Campaign_ID) DESC
-```
-<img width="502" height="115" alt="image" src="https://github.com/user-attachments/assets/929ed301-57ff-4a28-8433-0a865818190e" />
-```sql
--- TOP 10 chiến dịch bị lỗ (Nguy hiểm)
-SELECT TOP 10 *  FROM Marketing
-WHERE ROAS < 1
-ORDER BY ROAS ASC
-```
-<img width="1012" height="220" alt="image" src="https://github.com/user-attachments/assets/92dd1ae6-6ca8-491f-8f9c-b4ef44691ed2" />
 ## Insights:
 
 Facebook và TikTok đang có ROAS thấp nhất so với mặt bằng chung (ROAS <= 2).
