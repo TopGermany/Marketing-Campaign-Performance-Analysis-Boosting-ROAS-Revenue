@@ -117,7 +117,8 @@ FROM Marketing
 GROUP BY Channel
 ORDER BY CPC DESC, cost_per_conversion DESC, CVR DESC;
 ```
-<img width="412" height="117" alt="image" src="https://github.com/user-attachments/assets/860dd40f-7540-4c45-97b9-55a6974e17e2" />
+<img width="522" height="117" alt="image" src="https://github.com/user-attachments/assets/4095719b-a620-428a-9538-f54d24887157" />
+
 
 ```sql
 -- Nhận diện các chiến dịch đang kéo sai tệp người dùng (Click rẻ nhưng chi phí ra đơn cực đắt)
@@ -133,5 +134,62 @@ ORDER BY cost_per_conversion DESC;
 ```
 <img width="682" height="317" alt="image" src="https://github.com/user-attachments/assets/e0b3a7f6-3903-44f9-b779-2248f5cc319a" />
 
+## Insights:
+- Kết hợp giữa CVR và Bounce Rate, Landing Page không phải là nguyên nhân chính dẫn đến ROAS thấp. Vấn đề nằm ở việc xác định đối tượng khách hàng (Targeting).
+- LinkedIn xác định đối tượng chuẩn xác nhất (CPC rẻ, CVR cao nhất, Cost/Conversion thấp).
+- TikTok tốn rất nhiều tiền (CPC đắt thứ 2) nhưng CVR thấp. Nghĩa là phải tiêu tốn cực kỳ nhiều chi phí mới ra được 1 đơn hàng.
+Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên tới 
+400K–618K trong khi Doanh thu trên mỗi đơn chỉ đạt ~$35K vì vậy các chiến dịch này đang lỗ nặng trên từng đơn hàng.
+
+## 6. 📈 Trực Quan Hóa Dữ Liệu (Power BI Dashboards)
+
+<img width="1350" height="740" alt="Recording 2026-06-29 204630" src="https://github.com/user-attachments/assets/8f9bd5a0-2fe6-46b6-aa15-2bc65d530916" />
+
+## Trang 1: Overview Dashboard (Bức tranh tổng thể)
+
+<img width="1321" height="742" alt="Screenshot 2026-06-29 170609" src="https://github.com/user-attachments/assets/909edab1-bd0d-40b7-8d84-3ae3707ac5d9" />
+
+- Biểu đồ này tạo ra để trả lời câu hỏi gì? Cung cấp cái nhìn toàn cảnh về tình hình kinh doanh hiện tại. Kênh nào đang "gánh" doanh thu và kênh nào đang "đốt tiền" toàn đội?
+  
+- Phân tích: Dựa vào hệ thống KPI và Bar Chart ROAS by Channel, ta thấy ngay Email Marketing (2.20) đang dẫn đầu về hiệu quả, trong khi Facebook Ads (1.91) nằm bét bảng. Đặc biệt, bảng Campaigns at risks giúp CMO điểm mặt chỉ tên ngay lập tức những chiến dịch đang có ROAS < 1 để can thiệp kịp thời.
+
+## Trang 2: Campaigns Action Dashboard (Bản đồ hành động)
+
+<img width="1325" height="742" alt="Screenshot 2026-06-29 170623" src="https://github.com/user-attachments/assets/b0f7d1c0-d423-4a35-b062-2a59503079f6" />
+
+- Biểu đồ này tạo ra để trả lời câu hỏi gì? Trả lời nhanh gọn câu hỏi "Hành động tiếp theo với 484 chiến dịch là gì?". Giám đốc không thể rà soát từng chiến dịch một, mà cần sự phân loại nhóm hành động rõ ràng.
+  
+- Phân tích: Bằng tư duy Phân nhóm (Segmentation), 484 chiến dịch được chia thành 3 nhóm hành động:
+    - Scale Up (197 campaigns): ROAS lý tưởng (>= 2.5) -> Đề xuất tăng tiền ngay.
+    - Optimize (193 campaigns): Cần theo dõi thêm và tối ưu nội dung.
+    - Pause Now (94 campaigns): Đây là nguyên nhân cốt lõi gây lãng phí. Nhóm này ngốn tới 27.55% tổng ngân sách ($3.52B) nhưng mang lại lợi nhuận âm -> Yêu cầu tắt (Pause) ngay lập tức.
+
+## Trang 3: Budget Efficiency Dashboard (Hiệu quả phân bổ dòng tiền)
+
+<img width="1327" height="747" alt="Screenshot 2026-06-29 170639" src="https://github.com/user-attachments/assets/9e69a1c2-2e08-43b0-9a15-a537a871072b" />
+
+- Biểu đồ này tạo ra để trả lời câu hỏi gì? Đánh giá xem phần trăm ngân sách (Budget Share) cấp cho từng kênh đã tương xứng với doanh thu (Revenue Share) mà kênh đó mang lại hay chưa? Mức độ lãng phí đang là bao nhiêu?
+  
+- Phân tích: Sử dụng khái niệm Efficiency Gap (Khoảng trống hiệu suất). Biểu đồ cột chỉ rõ Facebook Ads và TikTok Ads đang có "Gap âm" (-1.7% và -0.6%), minh chứng cho việc sử dụng vốn kém hiệu quả. Đây là cơ sở dữ liệu vững chắc để bảo vệ quan điểm rút ngân sách khỏi 2 kênh này.
+
+## 7. 🚀 Đề Xuất Chiến Lược (Recommendations)
+
+1. ## Nhóm kênh cần Tăng Ngân Sách (Scale Up): ## 
+
+- LinkedIn Ads: Là kênh có chất lượng Targeting chuẩn nhất (CVR cao nhất, chi phí ra đơn thấp). Cần tập trung dồn ngân sách vào đây để tối đa hóa số lượng khách hàng tiềm năng.
+  
+- Email Marketing & Google Ads: Có tỷ lệ ROAS cao nhất và mức độ giữ chân khách hàng (Retention) rất tốt. Đề xuất mở rộng tệp từ khóa (Google) và phát triển kịch bản Email tự động để tăng trưởng doanh thu.
+  
+2. ## Nhóm kênh cần Cắt Giảm / Tối Ưu Lại (Optimize & Pause): ##
+
+- Tắt ngay (Pause) 94 chiến dịch lỗ: Nằm trong nhóm "Pause Now" trên Dashboard, việc chặn đứng ngay lập tức các chiến dịch này sẽ cứu lại 27.55% ngân sách doanh nghiệp đang bị lãng phí.
+  
+- TikTok Ads: Cắt giảm ngân sách. Mặc dù nhắm đến giới trẻ, chi phí click (CPC) quá đắt đỏ và không sinh ra đơn hàng. Cần thay đổi mục tiêu chiến dịch từ "Chuyển đổi" sang "Tăng nhận diện thương hiệu" (Brand Awareness).
+
+- Facebook Ads: Đang có ROAS thấp nhất toàn chiến dịch (1.91). Cần A/B Testing lại hoàn toàn tệp khách hàng mục tiêu hoặc thay đổi chất lượng nội dung quảng cáo (Creatives) trước khi tiếp tục chi tiền.
+
+---
+
+## Cảm ơn bạn đã quan tâm đến dự án của tôi! Nếu có cơ hội trao đổi hoặc hợp tác, vui lòng liên hệ với tôi qua Email: hoquocuong2005@gmail.com
 
 
