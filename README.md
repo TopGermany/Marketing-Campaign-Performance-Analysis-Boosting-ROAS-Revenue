@@ -12,7 +12,7 @@
 ---
 
 ## 1. 🏢 Bối Cảnh Dự Án
-Công ty ABC đã triển khai **500 chiến dịch quảng cáo** trên 5 nền tảng Marketing khác nhau (Facebook Ads, Google Ads, TikTok Ads, Email Marketing, LinkedIn Ads) với tổng ngân sách lên tới **50 tỷ VNĐ** trong vòng 6 tháng qua. 
+Công ty POC đã triển khai **500 chiến dịch quảng cáo** trên 5 nền tảng Marketing khác nhau (Facebook Ads, Google Ads, TikTok Ads, Email Marketing, LinkedIn Ads) với tổng ngân sách lên tới **50 tỷ VNĐ** trong vòng 6 tháng qua. 
 
 Tuy nhiên, dù đã chi tiêu một lượng ngân sách lớn, công ty đang đối mặt với tình trạng nhiều chiến dịch "đốt tiền" nhưng không mang lại doanh thu. Kỳ vọng ban đầu của công ty là đạt mức **ROAS (Return on Ad Spend) >= 3.5**, nhưng thực tế rất nhiều chiến dịch đang có mức ROAS thấp dưới ngưỡng hòa vốn.
 
@@ -94,13 +94,13 @@ ORDER BY ROAS ASC
 
 ## Insights:
 
-Facebook và TikTok đang có ROAS thấp nhất so với mặt bằng chung (ROAS <= 2).
+- Facebook và TikTok đang có ROAS thấp nhất so với mặt bằng chung (ROAS <= 2).
 
-Ngân sách của Facebook chiếm 19.61% tổng chi phí nhưng hiệu quả sinh lời kém. Trong khi đó, Google Ads chiếm mức chi phí tương đương (19.26%) nhưng mang lại doanh thu cao hơn rất nhiều.
+- Ngân sách của Facebook chiếm 19.61% tổng chi phí nhưng hiệu quả sinh lời kém. Trong khi đó, Google Ads chiếm mức chi phí tương đương (19.26%) nhưng mang lại doanh thu cao hơn rất nhiều.
 
-TikTok và Facebook là 2 kênh duy nhất có % Doanh Thu < % Chi Phí.
+- TikTok và Facebook là 2 kênh duy nhất có % Doanh Thu < % Chi Phí.
 
-TOP 10 chiến dịch lỗ cao nhất tập trung nhiều nhất vào kênh TikTok (5/10 chiến dịch).
+- TOP 10 chiến dịch lỗ cao nhất tập trung nhiều nhất vào kênh TikTok (5/10 chiến dịch).
 
 
 
