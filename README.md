@@ -102,5 +102,35 @@ ORDER BY ROAS ASC
 
 - TOP 10 chiến dịch lỗ cao nhất tập trung nhiều nhất vào kênh TikTok (5/10 chiến dịch).
 
+## Vấn đề 2: Tỷ lệ chuyển đổi (CVR) từ quảng cáo thấp - Vì sao?
+Đánh giá chất lượng Landing Page và tệp khách hàng mục tiêu (Targeting).
+
+```sql
+-- Đánh giá chất lượng Targeting qua CPC, Cost per Conversion và CVR
+SELECT
+    Channel,
+    ROUND(SUM(Budget) / SUM(Clicks), 2) AS CPC,
+    ROUND(SUM(Budget) / NULLIF(SUM(Conversions), 0), 2) AS cost_per_conversion,
+    ROUND(SUM(Conversions) * 100.0 / SUM(Clicks), 2) AS CVR,
+    ROUND(SUM(Total_Revenue) / NULLIF(SUM(Conversions), 0), 2) AS revenue_per_conversion
+FROM Marketing
+GROUP BY Channel
+ORDER BY CPC DESC, cost_per_conversion DESC, CVR DESC;
+```
+<img width="412" height="117" alt="image" src="https://github.com/user-attachments/assets/860dd40f-7540-4c45-97b9-55a6974e17e2" />
+
+```sql
+-- Nhận diện các chiến dịch đang kéo sai tệp người dùng (Click rẻ nhưng chi phí ra đơn cực đắt)
+SELECT TOP 15
+    Campaign_ID, Channel, Budget, Clicks, Conversions,
+    ROUND(Budget * 1.0 / NULLIF(Clicks, 0), 2) AS cpc_actual,
+    ROUND(Budget * 1.0 / NULLIF(Conversions, 0), 2) AS cost_per_conversion,
+    ROUND(Conversions * 100.0 / NULLIF(Clicks, 0), 2) AS cvr
+FROM Marketing
+WHERE Conversions > 0
+  AND (Budget * 1.0 / Clicks) < (SELECT AVG(Budget * 1.0 / NULLIF(Clicks, 0)) FROM Marketing)
+ORDER BY cost_per_conversion DESC;
+```
+<img width="407" height="120" alt="image" src="https://github.com/user-attachments/assets/a376488f-cc12-41d2-89c8-584de1368d54" />
 
 
