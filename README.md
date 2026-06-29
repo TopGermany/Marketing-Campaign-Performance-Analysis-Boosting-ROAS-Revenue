@@ -151,7 +151,7 @@ Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên t�
 
 - Biểu đồ này tạo ra để trả lời câu hỏi gì? Cung cấp cái nhìn toàn cảnh về tình hình kinh doanh hiện tại. Kênh nào đang "gánh" doanh thu và kênh nào đang "đốt tiền" toàn đội?
   
-- Phân tích: Dựa vào hệ thống KPI và Bar Chart ROAS by Channel, ta thấy ngay Email Marketing (2.20) đang dẫn đầu về hiệu quả, trong khi Facebook Ads (1.91) nằm bét bảng. Đặc biệt, bảng Campaigns at risks giúp CMO điểm mặt chỉ tên ngay lập tức những chiến dịch đang có ROAS < 1 để can thiệp kịp thời.
+- ## Phân tích: ## Dựa vào hệ thống KPI và Bar Chart ROAS by Channel, ta thấy ngay Email Marketing (2.20) đang dẫn đầu về hiệu quả, trong khi Facebook Ads (1.91) nằm bét bảng. Đặc biệt, bảng Campaigns at risks giúp CMO điểm mặt chỉ tên ngay lập tức những chiến dịch đang có ROAS < 1 để can thiệp kịp thời.
 
 ## Trang 2: Campaigns Action Dashboard (Bản đồ hành động)
 
@@ -159,7 +159,7 @@ Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên t�
 
 - Biểu đồ này tạo ra để trả lời câu hỏi gì? Trả lời nhanh gọn câu hỏi "Hành động tiếp theo với 484 chiến dịch là gì?". Giám đốc không thể rà soát từng chiến dịch một, mà cần sự phân loại nhóm hành động rõ ràng.
   
-- Phân tích: Bằng tư duy Phân nhóm (Segmentation), 484 chiến dịch được chia thành 3 nhóm hành động:
+- ## Phân tích: ## Bằng tư duy Phân nhóm (Segmentation), 484 chiến dịch được chia thành 3 nhóm hành động:
     - Scale Up (197 campaigns): ROAS lý tưởng (>= 2.5) -> Đề xuất tăng tiền ngay.
     - Optimize (193 campaigns): Cần theo dõi thêm và tối ưu nội dung.
     - Pause Now (94 campaigns): Đây là nguyên nhân cốt lõi gây lãng phí. Nhóm này ngốn tới 27.55% tổng ngân sách ($3.52B) nhưng mang lại lợi nhuận âm -> Yêu cầu tắt (Pause) ngay lập tức.
@@ -170,7 +170,7 @@ Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên t�
 
 - Biểu đồ này tạo ra để trả lời câu hỏi gì? Đánh giá xem phần trăm ngân sách (Budget Share) cấp cho từng kênh đã tương xứng với doanh thu (Revenue Share) mà kênh đó mang lại hay chưa? Mức độ lãng phí đang là bao nhiêu?
   
-- Phân tích: Sử dụng khái niệm Efficiency Gap (Khoảng trống hiệu suất). Biểu đồ cột chỉ rõ Facebook Ads và TikTok Ads đang có "Gap âm" (-1.7% và -0.6%), minh chứng cho việc sử dụng vốn kém hiệu quả. Đây là cơ sở dữ liệu vững chắc để bảo vệ quan điểm rút ngân sách khỏi 2 kênh này.
+- ## Phân tích: ## Sử dụng khái niệm Efficiency Gap (Khoảng trống hiệu suất). Biểu đồ cột chỉ rõ Facebook Ads và TikTok Ads đang có "Gap âm" (-1.7% và -0.6%), minh chứng cho việc sử dụng vốn kém hiệu quả. Đây là cơ sở dữ liệu vững chắc để bảo vệ quan điểm rút ngân sách khỏi 2 kênh này.
 
 ## 7. 🚀 Đề Xuất Chiến Lược (Recommendations)
 
