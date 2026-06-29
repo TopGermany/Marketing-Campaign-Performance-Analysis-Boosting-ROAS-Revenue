@@ -1,7 +1,5 @@
 # 📊 Phân Tích Hiệu Quả Chiến Dịch Marketing & Tối Ưu ROAS (Marketing Campaign Analysis)
 
-> **Lưu ý cho nhà tuyển dụng:** Dự án này mô phỏng quy trình xử lý dữ liệu và phân tích hiệu suất thực tế của một Data Analyst nhằm giải quyết bài toán kinh doanh cốt lõi: Tối ưu hóa chi phí quảng cáo và tăng doanh thu.
-
 ## 📑 Mục Lục
 - [1. Bối Cảnh Dự Án](#1-bối-cảnh-dự-án)
 - [2. Mục Tiêu Kinh Doanh](#2-mục-tiêu-kinh-doanh)
@@ -74,3 +72,4 @@ SELECT
 FROM Marketing
 GROUP BY Channel
 ORDER BY Budget DESC;
+
