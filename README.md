@@ -131,6 +131,7 @@ WHERE Conversions > 0
   AND (Budget * 1.0 / Clicks) < (SELECT AVG(Budget * 1.0 / NULLIF(Clicks, 0)) FROM Marketing)
 ORDER BY cost_per_conversion DESC;
 ```
-<img width="407" height="120" alt="image" src="https://github.com/user-attachments/assets/a376488f-cc12-41d2-89c8-584de1368d54" />
+<img width="682" height="317" alt="image" src="https://github.com/user-attachments/assets/e0b3a7f6-3903-44f9-b779-2248f5cc319a" />
+
 
 
