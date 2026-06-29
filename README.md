@@ -190,6 +190,6 @@ Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên t�
 
 ---
 
-Cảm ơn bạn đã quan tâm đến dự án của tôi! Nếu có cơ hội trao đổi hoặc hợp tác, vui lòng liên hệ với tôi qua Email: ## hoquocuong2005@gmail.com ##
+Cảm ơn bạn đã quan tâm đến dự án của tôi! Nếu có cơ hội trao đổi hoặc hợp tác, vui lòng liên hệ với tôi qua Email: hoquocuong2005@gmail.com ##
 
 
