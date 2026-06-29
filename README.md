@@ -174,13 +174,13 @@ Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên t�
 
 ## 7. 🚀 Đề Xuất Chiến Lược (Recommendations)
 
-1. ## Nhóm kênh cần Tăng Ngân Sách (Scale Up): ## 
+## 1. Nhóm kênh cần Tăng Ngân Sách (Scale Up): ## 
 
 - LinkedIn Ads: Là kênh có chất lượng Targeting chuẩn nhất (CVR cao nhất, chi phí ra đơn thấp). Cần tập trung dồn ngân sách vào đây để tối đa hóa số lượng khách hàng tiềm năng.
   
 - Email Marketing & Google Ads: Có tỷ lệ ROAS cao nhất và mức độ giữ chân khách hàng (Retention) rất tốt. Đề xuất mở rộng tệp từ khóa (Google) và phát triển kịch bản Email tự động để tăng trưởng doanh thu.
   
-2. ## Nhóm kênh cần Cắt Giảm / Tối Ưu Lại (Optimize & Pause): ##
+## 2. Nhóm kênh cần Cắt Giảm / Tối Ưu Lại (Optimize & Pause): ##
 
 - Tắt ngay (Pause) 94 chiến dịch lỗ: Nằm trong nhóm "Pause Now" trên Dashboard, việc chặn đứng ngay lập tức các chiến dịch này sẽ cứu lại 27.55% ngân sách doanh nghiệp đang bị lãng phí.
   
