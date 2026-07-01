@@ -151,7 +151,7 @@ Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên t�
 
 - Biểu đồ này tạo ra để trả lời câu hỏi gì? Cung cấp cái nhìn toàn cảnh về tình hình kinh doanh hiện tại. Kênh nào đang "gánh" doanh thu và kênh nào đang "đốt tiền" toàn đội?
   
-- Phân tích: ## Dựa vào hệ thống KPI và Bar Chart ROAS by Channel, ta thấy ngay Email Marketing (2.20) đang dẫn đầu về hiệu quả, trong khi Facebook Ads (1.91) nằm bét bảng. Đặc biệt, bảng Campaigns at risks giúp CMO điểm mặt chỉ tên ngay lập tức những chiến dịch đang có ROAS < 1 để can thiệp kịp thời.
+- Phân tích: Dựa vào hệ thống KPI và Bar Chart ROAS by Channel, ta thấy ngay Email Marketing (2.20) đang dẫn đầu về hiệu quả, trong khi Facebook Ads (1.91) nằm bét bảng. Đặc biệt, bảng Campaigns at risks giúp CMO điểm mặt chỉ tên ngay lập tức những chiến dịch đang có ROAS < 1 để can thiệp kịp thời.
 
 ## Trang 2: Campaigns Action Dashboard (Bản đồ hành động)
 
