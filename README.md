@@ -8,7 +8,7 @@
 - [5. Phân Tích Dữ Liệu Bằng SQL](#5-phân-tích-dữ-liệu-bằng-sql-data-analysis)
 - [6. Trực Quan Hóa Dữ Liệu (Power BI)](#6-trực-quan-hóa-dữ-liệu-power-bi-dashboards)
 - [7. Đề Xuất Chiến Lược (Recommendations)](#7-đề-xuất-chiến-lược-recommendations)
-
+- [8. Tôi đã học gì trong quá trình làm project ? )](#8-Tôi-đã-học-gì-trong-quá-trình-làm-project-?)
 ---
 
 ## 1. 🏢 Bối Cảnh Dự Án
