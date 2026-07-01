@@ -190,6 +190,17 @@ Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên t�
 
 ---
 
+## 8. 📖 Tôi đã học gì trong quá trình làm project ? 
+- Biết được cách làm sạch dữ liệu, loại bỏ outline, tính toán lại các cột đang gặp vấn đề trong dữ liệu bằng EXCEL
+
+- Biết cách sử dụng SQL để truy vấn những câu query cần thiết ở một dự án chiến dịch Marketing
+
+- Biết cách sử dụng PowerBi để vẽ Dashboard giúp cho nhà quản lý có thể theo dõi được các chiến dịch Marketing đang xảy ra như thế nào ?
+
+- Hiểu được các chỉ số trong Marketing (ROAS, CPC, CTR, CVR, ...). Qua những chỉ số trên biết được cách phân tích các chiến dịch đang chạy của một công ty
+
+---
+
 Cảm ơn bạn đã quan tâm đến dự án của tôi! Nếu có cơ hội trao đổi hoặc hợp tác, vui lòng liên hệ với tôi qua Email: hoquocuong2005@gmail.com ##
 
 
