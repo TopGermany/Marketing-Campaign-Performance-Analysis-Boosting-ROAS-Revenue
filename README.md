@@ -94,10 +94,10 @@ ORDER BY ROAS ASC
 
 ## Insights:
 
-> * **⚠️ Vấn đề (The Hook):** Dòng tiền của chiến dịch đang bị "rò rỉ" nghiêm trọng tại Facebook và TikTok. Dù ngốn tới gần 40% tổng ngân sách (gần 20 tỷ VNĐ), hai nền tảng này lại đang kéo lùi toàn bộ hệ thống khi là những kênh duy nhất có ROAS chạm đáy (dưới 2.0).
-> * **📉 Mức độ thiệt hại (The Impact):** Sự chênh lệch hiệu suất (Efficiency Gap) thể hiện rõ nhất khi đặt Facebook lên bàn cân với Google Ads. Cùng được cấp mức ngân sách tương đương nhau (~19%), nhưng Google mang về doanh thu vượt trội, trong khi Facebook và TikTok rơi vào tình trạng "thu không bù chi" *(% Doanh thu mang lại thấp hơn % Chi phí bỏ ra)*.
-> * **🔍 Truy tìm thủ phạm (The Root Cause):** Khi "zoom" sâu vào nhóm các chiến dịch lỗ nặng nhất (ROAS < 1), thủ phạm chính lộ diện là **TikTok Ads**. Nền tảng này chiếm trọn 5/10 vị trí "đốt tiền" khủng khiếp nhất. Điển hình như `CAMP_252` hay `CAMP_122` tiêu tốn gần 50 triệu ngân sách mỗi chiến dịch nhưng mức ROAS chỉ lẹt đẹt ở 0.22 - 0.24 *(tức là chi 10 đồng quảng cáo chỉ thu về hơn 2 đồng)*.
-> * **🚀 Đề xuất hành động (Call to Action):** Cần lập tức "rút ống thở" (Pause) TOP 5 chiến dịch TikTok đang lỗ chạm đáy để chặn đứng đà thâm hụt. Khuyến nghị luân chuyển dòng vốn từ 2 nền tảng này sang "con gà đẻ trứng vàng" là Google Ads và Email Marketing nhằm kéo lại ROAS tổng thể cho công ty.
+> * **⚠️ Vấn đề :** Dòng tiền của chiến dịch đang bị phân bổ sai nghiêm trọng tại Facebook và TikTok. Dù ngốn tới gần 40% tổng ngân sách (gần 20 tỷ VNĐ), hai nền tảng này lại đang kéo lùi toàn bộ hệ thống khi là những kênh duy nhất có ROAS chạm đáy (dưới 2.0).
+> * **📉 Mức độ thiệt hại :** Sự chênh lệch hiệu suất (Efficiency Gap) thể hiện rõ nhất khi đặt Facebook lên bàn cân với Google Ads. Cùng được cấp mức ngân sách tương đương nhau (~19%), nhưng Google mang về doanh thu vượt trội, trong khi Facebook và TikTok rơi vào tình trạng "thu không bù chi" *(% Doanh thu mang lại thấp hơn % Chi phí bỏ ra)*.
+> * **🔍 Thủ phạm:** Khi "zoom" sâu vào nhóm các chiến dịch lỗ nặng nhất (ROAS < 1), thủ phạm chính lộ diện là **TikTok Ads**. Nền tảng này chiếm trọn 5/10 vị trí "đốt tiền" khủng khiếp nhất. Điển hình như `CAMP_252` hay `CAMP_122` tiêu tốn gần 50 triệu ngân sách mỗi chiến dịch nhưng mức ROAS chỉ lẹt đẹt ở 0.22 - 0.24 *(tức là chi 10 đồng quảng cáo chỉ thu về hơn 2 đồng)*.
+> * **🚀 Đề xuất hành động :** Cần lập tức dừng (Pause) TOP 5 chiến dịch TikTok đang lỗ chạm đáy để chặn đứng đà thâm hụt. Khuyến nghị luân chuyển dòng vốn từ 2 nền tảng này sang "con gà đẻ trứng vàng" là Google Ads và Email Marketing nhằm kéo lại ROAS tổng thể cho công ty.
 
 ```sql
 -- Đánh giá chất lượng Targeting qua CPC, Cost per Conversion và CVR
