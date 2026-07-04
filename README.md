@@ -132,11 +132,13 @@ ORDER BY cost_per_conversion DESC;
 <img width="682" height="317" alt="image" src="https://github.com/user-attachments/assets/e0b3a7f6-3903-44f9-b779-2248f5cc319a" />
 
 ## Insights:
-- Kết hợp giữa CVR và Bounce Rate, Landing Page không phải là nguyên nhân chính dẫn đến ROAS thấp. Vấn đề nằm ở việc xác định đối tượng khách hàng (Targeting).
-- LinkedIn xác định đối tượng chuẩn xác nhất (CPC rẻ, CVR cao nhất, Cost/Conversion thấp).
-- TikTok tốn rất nhiều tiền (CPC đắt thứ 2) nhưng CVR thấp. Nghĩa là phải tiêu tốn cực kỳ nhiều chi phí mới ra được 1 đơn hàng.
-Các chiến dịch cá biệt như CAMP_350, CAMP_8 có Cost/Conversion lên tới 
-400K–618K trong khi Doanh thu trên mỗi đơn chỉ đạt ~$35K vì vậy các chiến dịch này đang lỗ nặng trên từng đơn hàng.
+> * **⚠️ Vấn đề:** Doanh nghiệp đang có một số vấn đề lợi nhuận: Tỷ lệ chuyển đổi (CVR) thấp. Dù quảng cáo thu hút được lượng truy cập khổng lồ, nhưng phần lớn không chuyển hóa thành đơn hàng thực tế, kéo theo chi phí để có được một khách hàng (Cost per Conversion) bị đội lên mức phi lý.
+
+> * **📉 Mức độ thiệt hại:** Sự phi lý này hiện rõ khi bóc tách nhóm chiến dịch "đáy bảng". Điển hình như `CAMP_8` (TikTok) hay `CAMP_494` (Google) đổ vào hàng chục triệu đồng ngân sách, kéo về hàng vạn lượt click nhưng chỉ "chốt" được vài chục đơn lẻ tẻ (CVR chạm đáy ở mức 0.25% - 0.33%). Hậu quả là doanh nghiệp đang phải trả một cái giá "trên trời" – lên tới **hơn 400.000 VNĐ chỉ để đổi lấy 1 đơn hàng**!
+
+> * **🔍 Nguyên nhân:** Khi đối chiếu chéo giữa Bounce Rate và CVR: Lỗi không nằm ở chất lượng trang đích (Landing Page), mà nằm ở việc **Targeting (nhắm mục tiêu) sai tệp khách hàng**. Quảng cáo đang hiển thị cho những người tò mò click vào nhưng không hề có nhu cầu mua thực sự. Điều này minh chứng rõ qua việc LinkedIn làm cực tốt khâu Targeting (CVR cao nhất 6.11%, chi phí ra đơn rẻ nhất), trong khi TikTok và Facebook lại chật vật thu hút sai tệp người dùng, đẩy chi phí chốt đơn (Cost/Conversion) lên mức đắt đỏ nhất (~18.000 VNĐ/đơn trung bình).
+
+> * **🚀 Đề xuất hành động:** Cần siết chặt lại bộ lọc Targeting trên TikTok và Facebook ngay lập tức. Đề xuất chạy A/B Testing lại tệp khách hàng tương tự (Lookalike Audience) dựa trên tệp User chất lượng mà kênh LinkedIn đang mang lại. Đặc biệt, thiết lập quy tắc tự động: Bất kỳ chiến dịch nào có `Cost per Conversion` vượt mức lợi nhuận mang về trên mỗi đơn (`Revenue per Conversion`) phải bị Pause (tắt) ngay lập tức để tránh lỗ chồng lỗ.
 
 ## 6. 📈 Trực Quan Hóa Dữ Liệu (Power BI Dashboards)
 
