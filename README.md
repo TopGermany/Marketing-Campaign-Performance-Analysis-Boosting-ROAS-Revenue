@@ -140,7 +140,7 @@ ORDER BY cost_per_conversion DESC;
 
 > * **🚀 Đề xuất hành động:** Cần siết chặt lại bộ lọc Targeting trên TikTok và Facebook ngay lập tức. Đề xuất chạy A/B Testing lại tệp khách hàng tương tự (Lookalike Audience) dựa trên tệp User chất lượng mà kênh LinkedIn đang mang lại. Đặc biệt, thiết lập quy tắc tự động: Bất kỳ chiến dịch nào có `Cost per Conversion` vượt mức lợi nhuận mang về trên mỗi đơn (`Revenue per Conversion`) phải bị Pause (tắt) ngay lập tức để tránh lỗ chồng lỗ.
 
-## 6. 📈 Trực Quan Hóa Dữ Liệu (Power BI Dashboards)
+## 6. 📈 Trực Quan Hóa Dữ Liệu 
 
 <img width="1350" height="740" alt="Recording 2026-06-29 204630" src="https://github.com/user-attachments/assets/8f9bd5a0-2fe6-46b6-aa15-2bc65d530916" />
 
@@ -171,7 +171,7 @@ ORDER BY cost_per_conversion DESC;
   
 - Phân tích:  Sử dụng khái niệm Efficiency Gap (Khoảng trống hiệu suất). Biểu đồ cột chỉ rõ Facebook Ads và TikTok Ads đang có "Gap âm" (-1.7% và -0.6%), minh chứng cho việc sử dụng vốn kém hiệu quả. Đây là cơ sở dữ liệu vững chắc để bảo vệ quan điểm rút ngân sách khỏi 2 kênh này.
 
-## 7. 🚀 Đề Xuất Chiến Lược (Recommendations)
+## 7. 🚀 Đề Xuất Chiến Lược 
 
 ## 1. Nhóm kênh cần Tăng Ngân Sách (Scale Up): ## 
 
