@@ -27,7 +27,7 @@ Dự án được thực hiện nhằm giải quyết các câu hỏi kinh doanh
 
 ---
 
-## 3. 📚 Từ Điển Dữ Liệu (Data Dictionary)
+## 3. 📚 Từ Điển Dữ Liệu 
 
 | Trường Dữ Liệu | Ý Nghĩa |
 | :--- | :--- |
@@ -44,7 +44,7 @@ Dự án được thực hiện nhằm giải quyết các câu hỏi kinh doanh
 
 ---
 
-## 4. 🔍 Quy Trình Phân Tích (Methodology)
+## 4. 🔍 Quy Trình Phân Tích 
 
 1. **Data Cleaning (Làm sạch dữ liệu):** Xử lý các dòng dữ liệu bị thiếu (missing values), chuẩn hóa định dạng số liệu. Đặc biệt, **tính toán lại chỉ số CPC** do dữ liệu gốc đang bị áp dụng sai công thức (Công thức chuẩn: `CPC = Budget / Clicks`).
 2. **Exploratory Data Analysis (EDA):** Dùng SQL để tính toán chỉ số trung bình ROAS, CTR của từng nền tảng để có cái nhìn tổng quan.
@@ -53,7 +53,7 @@ Dự án được thực hiện nhằm giải quyết các câu hỏi kinh doanh
 
 ---
 
-## 5. 💻 Phân Tích Dữ Liệu Bằng SQL (Data Analysis)
+## 5. 💻 Phân Tích Dữ Liệu Bằng SQL 
 
 ### Vấn đề 1: Ngân sách lớn nhưng doanh thu không đạt kỳ vọng?
 Kiểm tra xem kênh nào đang tiêu tốn ngân sách và kênh nào có ROAS thấp nhất.
